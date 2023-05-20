@@ -2,7 +2,7 @@ import hashlib
 import getpass
 import pyfiglet
 
-ascii_banner = pyfiglet.figlet_format("I" + "MACLONE".upper())
+ascii_banner = pyfiglet.figlet_format("ZEN" + "SILVA".upper())
 print(ascii_banner.lower())
 
 print("           /\\")
@@ -17,7 +17,7 @@ print("    /__\\/__\\/__\\/__\\")
 counter = 0
 
 while True:
-    text = getpass.getpass(prompt="\n\n. . . . . .")
+    text = getpass.getpass(prompt="\n\n. . . . . . .")
     if text == 'exit':
         break
     counter += 1
