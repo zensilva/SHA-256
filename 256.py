@@ -1,8 +1,15 @@
+#################################################################################
+##                                SHA - 256 Converter                          ##
+##                         Date of development: February 11, 2022              ##
+##                          Last modified: April 20, 2023                      ##
+##                             Designed by: Zen K. Silva                       ##
+#################################################################################
+
 import hashlib
 import getpass
 import pyfiglet
 
-ascii_banner = pyfiglet.figlet_format("ZEN" + "SILVA".upper())
+ascii_banner = pyfiglet.figlet_format("SHA-" + "256".upper())
 print(ascii_banner.lower())
 
 print("           /\\")
